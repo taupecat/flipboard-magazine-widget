@@ -13,6 +13,6 @@
 
 namespace taupecat;
 
-require_once __DIR__ . '/class-flipboard.php';
+require_once __DIR__ . '/inc/class-flipboard.php';
 
 ( new Flipboard() )->init();

@@ -35,7 +35,8 @@ class Flipboard {
 	 */
 	public function __construct() {
 
-		$this->plugin_url = plugins_url( '/js/flbuttons.min.js', __FILE__ );
+		$this->plugin_url = plugin_dir_url( __DIR__ );
+		var_dump( $this->plugin_url );
 	}
 
 	/**
@@ -73,7 +74,7 @@ class Flipboard {
 
 		wp_register_script(
 			'fmw-flipboard-widget-js',
-			esc_url( $this->plugin_url ),
+			esc_url( $this->plugin_url . 'js/flbuttons.min.js' ),
 			array(),
 			$this->version,
 			true
