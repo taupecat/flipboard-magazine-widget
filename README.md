@@ -13,10 +13,7 @@ Add a Flipboard magazine widget (https://share.flipboard.com/) to your sidebar
 
 ## Description
 
-This plugin turns Flipboard widgets into true WordPress widgets.  All you have
-to do is enter the magazine's URL, and this plugin handles the rest!  No need to
-worry about copying and pasting the Flipboard-generated code, and the required
-JavaScript is handled in the appropriate WordPress way.
+This plugin turns Flipboard widgets into true WordPress widgets.  All you have to do is enter the magazine's URL, and this plugin handles the rest!  No need to worry about copying and pasting the Flipboard-generated code, and the required JavaScript is handled in the appropriate WordPress way.
 
 ## Installation
 
